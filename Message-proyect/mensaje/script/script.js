@@ -3,15 +3,17 @@ const question = document.querySelector(".question");
 const gif = document.querySelector(".gif");
 const yesBtn = document.querySelector(".yes-btn");
 const noBtn = document.querySelector(".no-btn");
+const pd = document.querySelector(".pd-container");
 
 yesBtn.addEventListener("click", () => {
-  question.textContent = "Perfecto, nos vemos el jueves c:";
+  question.textContent = "Perfecto, nos vemos el jueves 4:00pm ó 4:30pm  c:";
 
   gif.src =
     "https://i.pinimg.com/originals/ca/42/1d/ca421d4887aad40d311289ca53bce19e.gif";
 
   yesBtn.style.display = "none";
   noBtn.style.display = "none";
+  pd.style.visibility = "visible";
 });
 
 noBtn.addEventListener("mouseover", () => {
