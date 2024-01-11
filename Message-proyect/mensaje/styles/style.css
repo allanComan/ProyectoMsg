@@ -97,8 +97,8 @@ body .pd-container .pd {
 } */
 @media only screen and (max-width: 600px) {
   body .question {
-    font-size: 1.5em;
-    margin-bottom: 3em;
+    font-size: 1.4em;
+    text-align: center;
   }
   body .pd-container {
     max-width: 17rem;
