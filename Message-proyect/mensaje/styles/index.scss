@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Pangolin&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Pangolin", cursive;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+
+  /*   p {
+    text-align: center;
+    margin: 1rem 0;
+    padding: 1.5rem;
+    font-size: 2em;
+  } */
+
+  .gif {
+    width: 35%;
+    height: 100%;
+  }
+
+  .btn-container {
+    display: flex;
+    height: 30px;
+    width: 100%;
+    margin-top: 1rem;
+    justify-content: center;
+
+    button {
+      position: absolute;
+      width: 100px;
+      height: inherit;
+      font-size: 18px;
+      outline: none;
+      border-radius: 1rem;
+      background-color: rgb(128, 223, 255);
+      box-shadow: 0 1px rgba(128, 128, 128, 0.534);
+      transition: background-color 0.3s ease-in-out;
+      border: 2px solid black;
+      margin-top: 1rem;
+      &:nth-child(1) {
+        margin-left: -8rem;
+        background-color: rgb(128, 223, 255);
+      }
+
+      &:nth-child(2) {
+        margin-right: -8rem;
+        background: rgb(255, 255, 255);
+        color: rgb(39, 201, 255);
+      }
+      &:hover {
+        cursor: pointer;
+        background-color: rgb(203, 241, 255);
+      }
+    }
+  }
+  .question {
+    font-size: inheri;
+  }
+  .pd-container {
+    p {
+      font-size: 200px;
+    }
+  }
+}
+
+/* .btn-container {
+  display: flex;
+  height: 30px;
+  width: 100%;
+  margin-top: 1rem;
+  justify-content: center;
+  gap: 4rem;
+
+  button {
+    position: absolute;
+    width: 100px;
+    height: inherit;
+    font-size: 12px;
+    outline: none;
+    border: none;
+    border-radius: 1rem;
+    background-color: rgb(128, 223, 255);
+    box-shadow: 0 1px rgba(128, 128, 128, 0.534);
+    transition: background-color 0.3s ease-in-out;
+
+    &:hover {
+      cursor: pointer;
+      background-color: rgba(128, 223, 255, 0.823);
+    }
+  }
+} */
